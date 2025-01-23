@@ -1,0 +1,80 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #d8b4fe, #a5d8ff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.calculadora {
+  background: #a26be9;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+}
+
+.calculadora h1 {
+  font-size: 240%;
+  color: #000000;
+  margin-bottom: 40px;
+}
+
+input {
+  text-align: center;
+  padding: 15px;
+  margin: 10px 0;
+  font-size: 150%;
+  border: 1px solid #f2d5f4;
+  border-radius: 10px;
+  outline: none;
+ 
+}
+
+input:focus {
+  border-color: #660a94;
+  box-shadow: 0 0 8px rgba(24, 16, 184, 0.3);
+}
+
+.buttons button {
+  padding: 20px 25px;
+  margin: 10px 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  background: #4f2775;
+  color: rgb(255, 255, 255);
+  transition: background 0.3s, transform 0.2s;
+}
+
+.buttons button:hover {
+  background: #2f063a;
+  transform: translateY(-2px);
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.result h2 {
+  color: #0a0919;
+}
+
+.result p {
+  font-size: 150%;
+  font-weight: bold;
+  color: #210334;
+}
+.result h3 {
+  color: #423245;
+  margin-top: 4%;
+}
+
+
